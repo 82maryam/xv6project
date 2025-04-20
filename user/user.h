@@ -22,6 +22,7 @@ int getpid(void);
 char *sbrk(int);
 int sleep(int);
 int uptime(void);
+//اضافه کردن تابع ترگیر
 int trigger(void);
 
 // ulib.c
