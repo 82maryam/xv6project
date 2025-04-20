@@ -36,6 +36,6 @@ entry("getpid");
 entry("sbrk");
 entry("sleep");
 entry("uptime");
-//اضافه کردن اینترای تریگر
+//افزودن واسط اسمبلی در 
 entry("trigger");
 
