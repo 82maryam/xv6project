@@ -93,6 +93,7 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+// پیاده‌سازی هندلر کرنل
 uint64
 sys_trigger(void)
 {
