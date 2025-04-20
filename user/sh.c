@@ -98,7 +98,7 @@ void runcmd(struct cmd *cmd)
   {
   default:
     panic("runcmd");
-
+//برای اجرای تابع !
   case EXEC:
     ecmd = (struct execcmd *)cmd;
     if (ecmd->argv[0] == 0)
@@ -140,7 +140,7 @@ void runcmd(struct cmd *cmd)
       printf("\n");
       exit(0);
     }
-
+//پایان تغییرات
     exec(ecmd->argv[0], ecmd->argv);
     fprintf(2, "exec %s failed\n", ecmd->argv[0]);
     break;
@@ -202,6 +202,7 @@ void runcmd(struct cmd *cmd)
 
 int getcmd(char *buf, int nbuf)
 {
+  //عوض کردن اسم شل با خط پایین
   write(2, " Maryam Masoumi & Sanaz Aparooyz $", 37);
   memset(buf, 0, nbuf);
   gets(buf, nbuf);
