@@ -36,5 +36,6 @@ entry("getpid");
 entry("sbrk");
 entry("sleep");
 entry("uptime");
+//اضافه کردن اینترای تریگر
 entry("trigger");
 
