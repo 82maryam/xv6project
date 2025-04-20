@@ -16,6 +16,7 @@ void main()
     printfinit();
     printf("\n");
     printf("xv6 kernel is booting\n");
+    //بعد از بوت شدن این پیام ها را لاگ کند
     log_message(LOG_INFO, "Welcome to AUT MCS Principles of Operating Systems Course. This message is from a custom logger implemented by student_number_1 and student_number_2");
     log_message(LOG_WARN, "This is a test warning message for the custom logger");
     log_message(LOG_ERROR, "This is a test error message for the custom logger");
