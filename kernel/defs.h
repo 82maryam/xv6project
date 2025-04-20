@@ -185,7 +185,7 @@ void virtio_disk_init(void);
 void virtio_disk_rw(struct buf *, int);
 void virtio_disk_intr(void);
 
-// add protype me
+// افزودن پروتوتایپ در 
 uint64 sys_trigger(void);
 
 // number of elements in fixed-size array
